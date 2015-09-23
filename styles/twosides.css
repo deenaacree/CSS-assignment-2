@@ -21,16 +21,17 @@ h1 {
 }
 
 article {
-  background: #fff;
-  width: 650px;
+  width: 40%;
+  float: left;
   padding: 10px 40px;
   margin: 30px auto;
   -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
       box-sizing: border-box;
+
 }
 
-h2, section > p {
+h2, div > p {
   text-align: center;
 }
 
@@ -39,26 +40,36 @@ img {
   margin: auto;
 }
 
+div {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
 #cougar {
   background: #FFD5AE;
-  padding-top: 50px;
+  overflow: auto;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 #lion {
   background: #B26219;
-  padding-top: 50px;
+  overflow: auto;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 #tiger {
   background: #FFBD82;
-  padding-top: 50px;
+  overflow: auto;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 footer {
   color: #fff;
+  clear: both;
   text-align: center;
   margin: 20px 50px;
 }
